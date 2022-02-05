@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,7 @@
     "eslint-plugin-standard": "^5.0.0",
     "git-commit-msg-linter": "^4.0.7",
     "husky": "^7.0.0",
+    "lint-staged": "^12.3.3",
     "react-router-dom": "^6.2.1",
     "sass-loader": "^12.4.0",
     "ts-loader": "^9.2.6",
