@@ -1,3 +1,5 @@
+@import '../../styles/colors.scss';
+
 .login {
   display: flex;
   flex-direction: column;
@@ -7,12 +9,12 @@
   .header {
     display: flex;
     flex-direction: column;
-    border-top: 40px solid black;
-    background-color: black;
+    border-top: 40px solid $primaryDark;
+    background-color: $primaryDark;
     align-items: center;
 
     h1{
-      color: white;
+      color: $white;
       margin: 16px 0px 40px;
     }
   }
@@ -49,19 +51,8 @@
     }
   }
 
-  .input {
-    margin-top: 40px;
-    position: relative;
-
-    input {
-      width: 100%;
-      line-height: 24px;
-      padding: 0px 40px 0px 8px;
-    }
-  }
-
   button {
-    background-color: red;
+    background-color: $primaryLight;
     line-height: 50px;
     color: white;
     border-radius: 8px;
@@ -71,7 +62,7 @@
   }
 
   footer {
-    background-color: black;
+    background-color: $primaryDark;
     height: 48px;
   }
 }
