@@ -1,6 +1,7 @@
 import React from 'react'
 import { FiArrowDown } from 'react-icons/fi'
-import { DiJsBadge, DiCss3, DiGit, DiDatabase, DiHtml5, DiNodejsSmall, DiReact, DiMongodb } from 'react-icons/di'
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+
 import Style from './home-style.scss'
 
 const Home: React.FC = () => {
@@ -55,8 +56,32 @@ const Home: React.FC = () => {
           <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/webpack/webpack-original.svg" alt="webpack" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/jest/jest-plain.svg" alt="jest" />
           <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/azure/azure-original.svg" alt="jest" />
-
         </div>
+        <div className={Style.projects}>
+          <a href="">
+            <div className={Style.container}>
+              <h1>projeto</h1>
+            </div>
+          </a>
+          <a href="">
+            <div className={Style.container}>
+              <h1>projeto</h1>
+            </div>
+          </a>
+          <a href="">
+            <div className={Style.container}>
+              <h1>projeto</h1>
+            </div>
+          </a>
+        </div>
+        <footer className={Style.footer}>
+          <a href="https://linkedin.com/in/yurifardel">
+            <AiFillLinkedin style={{ fontSize: '2rem', color: '#404040' }} />
+          </a>
+          <a href="https://github.com/yurifardel">
+            <AiFillGithub style={{ fontSize: '2rem', color: '#404040' }} />
+          </a>
+        </footer>
     </div>
   )
 }

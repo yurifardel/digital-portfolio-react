@@ -27,7 +27,7 @@
 
   .first {
     background-image:  url('../../../../public/assets/img/img.jpg');
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
     background-position: center;
     // background-size: 100%;
     width: 100%;
@@ -109,15 +109,48 @@
       }
     }
   }
-    .iconsTech {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      margin: 3rem;
-      img {
-        width: 3.2rem;   
-      }
+  .iconsTech {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem;
+    img {
+      width: 3.2rem;   
     }
+  }
 
+  
+  .footer {
+    display: flex;
+    background-color: $black;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    .container {
+      margin:  5rem 0rem 5rem 0rem;
+      height: 27rem;
+      width: 20rem;
+      background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url('../../../../public/assets/img/img-pjt.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      border-radius: 8px;
+      box-shadow: 5px 5px 5px black;
+     
+    }
+  }
+  
     
 }
